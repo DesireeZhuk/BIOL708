@@ -1,6 +1,6 @@
 ---
 title: "Sea Otter Nutrient Accesibility in SF Bay"
-author: "Desiree Zhuk"
+author: "Desiree Zhuk 8/21/23"
 format: docx
 editor: visual
 ---
