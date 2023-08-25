@@ -1,11 +1,11 @@
 ---
-title: "Sea Otter Nutrient Accesibility in SF Bay"
+title: "Southern Sea Otter Nutrient Accesibility in Low Risk Areas within San Francisco Bay"
 author: "Desiree Zhuk 8/21/23"
 format: docx
 editor: visual
 ---
 
-\[Desiree's GitHub Repository\](https://github.com/DesireeZhuk/BIOL708)
+[Desiree's GitHub Repository](https://github.com/DesireeZhuk/BIOL708)
 
 ## Introduction
 
