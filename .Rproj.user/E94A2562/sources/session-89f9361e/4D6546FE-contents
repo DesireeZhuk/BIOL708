@@ -32,5 +32,25 @@ mass <- read.csv("https://raw.githubusercontent.com/OHI-Science/data-science-tra
 
 #MAke some plots
 
-ggplot(ca) +geom_point(aes(x=year,y=visitors))
+ggplot(ca) +geom_point(aes(x=year,y=visitors, color=park_name))+
+  labs(y="Visitation", title="National Park Visitors")+
+  theme_bw()+
+  theme(legend.title=element_blank())
+
+ggplot(se) +geom_point(aes(x=year,y=visitors, color=state))+
+  labs(y="Visitation", title="SouthEast United States National Park Visitors")+
+  theme_bw()+
+  theme(legend.title=element_blank())+
+  theme(axis.text.x = element_text(angle = 45,size = 20))
+
+ggplot(se) +geom_boxplot(aes(x=park_name, y=visitors))+
+  theme(axis.text.x = element_text(angle = 10,size = 10))
+
+ggplot(se) +geom_point(aes(x=year,y=visitors, color=state))+
+  facet_wrap(~state, scales="free")+
+  xlim(c(1950,2000))
+
+ggplot(se) +geom_line(aes(x=year,y=visitors,color=park_name))+
+  geom_point(aes(x=year,y=visitors,color=park_name))+
+  geom_smooth(aes(x=year,y=visitors,color=park_name))
 ```
