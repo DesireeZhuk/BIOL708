@@ -1,0 +1,36 @@
+---
+title: "BIOL 708 Data Visualization"
+author: "Desiree Zhuk"
+format: html
+editor: visual
+---
+
+## Practicing Data Visualization
+
+```{r}
+#loadpackages
+library(tidyverse)
+library(here)
+library(readr)
+
+#Load National Park data from workshop
+
+#National Parks in California
+ca <- read.csv("https://raw.githubusercontent.com/OHI-Science/data-science-training/master/data/ca.csv") 
+
+#Acadia National Park
+acadia <- read.csv("https://raw.githubusercontent.com/OHI-Science/data-science-training/master/data/acadia.csv")
+
+#Southeast US National Parks
+se <- read.csv("https://raw.githubusercontent.com/OHI-Science/data-science-training/master/data/se.csv")
+
+#2016 Visitation for all Pacific West National Parks
+visit_16 <- read.csv("https://raw.githubusercontent.com/OHI-Science/data-science-training/master/data/visit_16.csv")
+
+#All Nationally designated sites in Massachusetts
+mass <- read.csv("https://raw.githubusercontent.com/OHI-Science/data-science-training/master/data/mass.csv")
+
+#MAke some plots
+
+ggplot(ca) +geom_point(aes(x=year,y=visitors))
+```

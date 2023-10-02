@@ -1,0 +1,6 @@
+[2,"\n"]
+[1,"\r\n\r\nprocessing file: Practice-Data-Visualization.rmarkdown\r\n1/3                  \r\n2/3 [unnamed-chunk-1]\r\n"]
+[1,"3/3                  \r\noutput file: Practice-Data-Visualization.knit.md\r\n\r\n"]
+[1,"pandoc \n  to: html\n  output-file: Practice Data Visualization.html\n  standalone: true\n  section-divs: true\n  html-math-method: mathjax\n  wrap: none\n  default-image-extension: png\n  \nmetadata\n  document-css: false\n  link-citations: true\n  date-format: long\n  lang: en\n  title: BIOL 708 Data Visualization\n  author: Desiree Zhuk\n  editor: visual\n  \n"]
+[1,"Output created: Practice Data Visualization.html\n\nWatching files for changes\n"]
+[1,"Browse at http://localhost:6020/\n"]
